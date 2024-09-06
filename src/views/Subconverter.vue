@@ -233,7 +233,7 @@ export default {
           Surge3: "surge&ver=3",
         },
         backendOptions: [{ value: "https://self.sater.asia/sub?" }],
-        remoteConfig: 
+        remoteConfig: [
           {
             label: "ACL4SSR",
             options: [
