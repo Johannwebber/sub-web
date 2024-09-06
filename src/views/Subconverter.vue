@@ -199,7 +199,7 @@ const project = process.env.VUE_APP_PROJECT
 const remoteConfigSample = process.env.VUE_APP_SUBCONVERTER_REMOTE_CONFIG
 const subDocAdvanced = process.env.VUE_APP_SUBCONVERTER_DOC_ADVANCED
 const gayhubRelease = process.env.VUE_APP_BACKEND_RELEASE
-const defaultBackend = "https://self.sater.asia" + '/sub?'
+const defaultBackend = "https://self1.sater.asia" + '/sub?'
 const shortUrlBackend = process.env.VUE_APP_MYURLS_API
 const configUploadBackend = process.env.VUE_APP_CONFIG_UPLOAD_API
 const tgBotLink = process.env.VUE_APP_BOT_LINK
@@ -232,7 +232,7 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "https://self.sater.asia/sub?" }],
+        backendOptions: [{ value: "https://self1.sater.asia/sub?" }],
         remoteConfig: [
           {
             label: "ACL4SSR",
